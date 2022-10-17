@@ -15,11 +15,11 @@ body {
 }
 
 a {
-	color: #36c275;
+	color: #FD7C2C;
 	text-decoration: none;
 }
 a:hover {
-	color: #36c275;
+	color: #FD7C2C;
 	filter: opacity(.8);
 }
 
@@ -33,14 +33,24 @@ a:hover {
 }
 
 .brand {
-	font-size: 4rem;
+	font-size: clamp(1.6rem, 4vw, 4rem);
 	line-height: 1;
-    background: linear-gradient(315deg,#00d301,#36c275 50.5%,#00a562);
-    color: transparent;
+    /* background: linear-gradient(315deg,#7281FD,#FD7C2C 50.5%,#FD7C2C); */
+    /* color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
 	text-fill-color: transparent;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
+}
+.brand .brand-codes {
+    color: #FD7C2C;
+}
+.brand .brand-vault {
+    color: #7281FD;
+}
+img.brand-logo {
+    max-width: 200px;
+    width: 100%;
 }
 .brand-info {
 	font-size: .8rem;
